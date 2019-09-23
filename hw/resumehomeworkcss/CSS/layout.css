@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+body
+{
+background-color: #8dc7fc;
+}
+
+ul{list-style: circle;
+font-family: 'Quicksand', cursive;}
+
+a{
+color: grey;
+text-decoration: none;
+}
+a:hover{
+color: purple;
+}
+
+#name{
+text-align: center;
+color:#bf19a6;
+font-family: cursive;
+text-shadow:   1px 0px #eee, 0px 1px #ccc,
+             2px 1px #eee, 1px 2px #ccc,
+             3px 2px #eee, 2px 3px #ccc,
+             4px 3px #eee, 3px 4px #ccc,
+             5px 4px #eee, 4px 5px #ccc,
+             6px 5px #eee, 5px 6px #ccc,
+             7px 6px #eee, 6px 7px #ccc,
+             8px 7px #eee, 7px 8px #ccc,
+             8px 8px #eee;
+}
+
+strong{color: red;
+font-family: 'Quicksand', cursive;
+}
+
+address{
+  color: green;
+  text-decoration: underline;
+  font-family: 'Mansalva', curive;
+}
+
+
+.tableheads{
+  color:blue;
+}
+.alignPink{
+  text-align: center;
+  color:#bf19a6;
+}
+
+img {
+ position: absolute;
+ top: 50%;
+ left: 78%;
+ width: 130px;
+ height: 129px;
+ margin-top: -300px; /* Half the height */
+ margin-left: -250px; /* Half the width */
+}
+
+#email {
+  color:blue;
+  font-family: 'Quicksand', cursive;
+}
+
+#phone {
+  color:yellow;
+  font-family: 'Mansalva', cursive;
+}
+#dates{
+  text-decoration: underline;
+}
+
+#rock {
+  color:#225866;
+}
