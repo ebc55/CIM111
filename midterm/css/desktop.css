@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Condensed&display=swap');
+
+header{
+  background-color: #548ce8;
+  width: 940px;
+  /* height: 100px; */
+  height: auto;
+  padding: 30px 30px 20px 30px; /* top right bottom left */
+
+  border-width: 5px 5px 5px 5px;/* top right bottom left */
+  border-color: #1259cc;
+  border-style: double;
+
+  margin: 10 auto 30 auto; /* top right bottom left */
+  margin: 0 auto; /* top and bottom, right and left */
+  margin-top: -10px;
+
+}
+main{
+  background-color: #81a9eb;
+  width: 960px;
+  height: auto;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  border-width: 5px;
+  border-style: double;
+  border-color: #0e4196;
+
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+
+}
+footer{
+  background-color: #548ce8;
+  width: 950px;
+  height: 100px;
+  border-style: double;
+
+  margin-top: 50px;
+}
+
+nav{
+  background-color: lightblue;
+  width: 800px;
+  margin: 0 auto; /* */
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px
+}
+
+nav ul li:hover{
+  background-color: white;
+}
+
+#grid1{
+  width: 800px;
+  height: 200px;
+  margin: 20px auto;
+  display: grid;
+
+  grid-template-rows: 125px;
+  grid-template-columns: 200px 600px;
+  grid-column-gap: 20px;
+
+}
+
+#grid2{
+  width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 70px;
+  grid-template-columns: 390px 450px;
+  grid-column-gap: 20px;
+}
+
+#grid2 img{
+  width: 390px;
+  margin: 140px auto;
+  display: block;
+}
+
+
+#grid3{
+  width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 70px;
+  grid-template-columns: 390px 450px;
+  grid-column-gap: 20px;
+}
+
+#GENERALFACTS, #LIFESPANANDDIET, #PRESERVATION, #HOME, #GALLERY{
+  font-family: 'Raleway', sans-serif;
+}
+
+p{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#HOME{
+  text-align: center;
+}
+
+#hammer{
+  display: block;
+  margin: 0 auto;
+}
+
+#shark1{
+  width: 272px;
+  height: 200px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+#shark2{
+  width: 272px;
+  height: 200px;
+  margin-right: 30px;
+}
+#shark3{
+  width: 272px;
+  height: 200px;
+  margin-right: 30px;
+}
+
+
+#GALLERY{
+  text-align: center;
+}
+
+#GENERALFACTS{
+  background-color: lightblue;
+  width: 205px;
+  height: 40px;
+  margin-top: 80px;
+}
+
+#LIFESPANANDDIET{
+  background-color: lightblue;
+  width: 250px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+#PRESERVATION{
+  background-color: lightblue;
+  width: 190px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+#WATER{
+  width: 300px;
+  margin-top: 210px;
+  margin-left: 40px;
+}
+
+#GALLERY{
+background-color: lightblue;
+width: 130px;
+height: 40px;
+margin: 0 auto;
+margin-bottom: 30px;
+}

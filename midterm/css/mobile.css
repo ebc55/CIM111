@@ -1,0 +1,62 @@
+@import "desktop.css";
+
+
+header{
+  width: 400px;
+}
+
+main{
+  width: 420px;
+}
+
+footer{
+  width: 465px;
+
+}
+
+nav{
+  width: 350px;
+}
+
+nav ul{
+  margin-left: -20px;
+}
+
+nav ul li{
+  display: block;
+  text-align: center;
+}
+
+#grid1{
+  width: 380px;
+  display: block;
+}
+
+#grid2{
+  width: 380px;
+  display: block;
+}
+
+#grid3{
+  width: 380px;
+  display: block;
+}
+
+#shark1{
+  margin-left: 72px;
+}
+#shark2{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 72px;
+}
+
+#shark3{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 72px;
+}
+
+#GALLERY, #PRESERVATION, #LIFESPANANDDIET, #GENERALFACTS{
+  text-align: center;
+}
