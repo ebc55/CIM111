@@ -8,10 +8,9 @@ header{
 main{
   width: 420px;
 }
-
 footer{
-  width: 465px;
-
+  width: 420px;
+  margin: 0 auto;
 }
 
 nav{
@@ -29,6 +28,7 @@ nav ul li{
 
 #grid1{
   width: 380px;
+  height: 370px;
   display: block;
 }
 
@@ -36,6 +36,14 @@ nav ul li{
   width: 380px;
   display: block;
 }
+
+#grid2 img{
+
+  margin: 0 auto;
+  display: block;
+}
+
+
 
 #grid3{
   width: 380px;
@@ -58,5 +66,15 @@ nav ul li{
 }
 
 #GALLERY, #PRESERVATION, #LIFESPANANDDIET, #GENERALFACTS{
-  text-align: center;
+  text-align: center !important;
+}
+
+#GENERALFACTS{
+  text-align: center !important;
+}
+
+
+#WATER{
+  margin-top: 30px;
+  margin-bottom: 30px;
 }

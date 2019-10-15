@@ -4,16 +4,16 @@
 header{
   background-color: #548ce8;
   width: 940px;
-  /* height: 100px; */
-  height: auto;
-  padding: 30px 30px 20px 30px; /* top right bottom left */
 
-  border-width: 5px 5px 5px 5px;/* top right bottom left */
+  height: auto;
+  padding: 30px 30px 20px 30px;
+
+  border-width: 5px 5px 5px 5px;
   border-color: #1259cc;
   border-style: double;
 
-  margin: 10 auto 30 auto; /* top right bottom left */
-  margin: 0 auto; /* top and bottom, right and left */
+  margin: 10 auto 30 auto;
+  margin: 0 auto; 
   margin-top: -10px;
 
 }
@@ -38,11 +38,11 @@ main{
 }
 footer{
   background-color: #548ce8;
-  width: 950px;
+  width: 960px;
+  padding: 25px;
   height: 100px;
   border-style: double;
-
-  margin-top: 50px;
+  margin: 0 auto;
 }
 
 nav{
@@ -91,8 +91,9 @@ nav ul li:hover{
 }
 
 #grid2 img{
-  width: 390px;
-  margin: 140px auto;
+  width: 330px;
+  height: 150px;
+  margin: 225px auto;
   display: block;
 }
 
