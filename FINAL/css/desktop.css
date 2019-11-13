@@ -1,0 +1,38 @@
+header{
+  background-color: pink;
+  width: 940px;
+
+  height: auto;
+  padding: 30px 30px 20px 30px;
+
+  border-width: 5px 5px 5px 5px;
+  border-color: #1259cc;
+  border-style: double;
+
+  margin: 10px auto 30px auto;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px
+}
+
+nav ul li:hover{
+  background-color: white;
+}
+
+
+#profile{
+  width: 300px;
+  height: 0 auto;
+}
