@@ -5,7 +5,7 @@ p, ul{
 }
 a{
   font-family: 'Josefin Slab', serif;
-  color: #099999
+  color: #099999;
 
 }
 h1{
@@ -13,8 +13,8 @@ h1{
 
 }
 #main{
-  font-size: 60px;
   color: #099999;
+  font-size: 70px;
 }
 
 
