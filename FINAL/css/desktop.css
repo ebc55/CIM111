@@ -13,7 +13,7 @@ h1{
 
 }
 #main{
-  font-size: 50px;
+  font-size: 60px;
   color: #099999;
 }
 
@@ -119,26 +119,9 @@ margin-top: -10px;
 }
 
 
-nav ul li{
-  list-style: none;
-  display: inline-block;
-  margin-right: 35px;
-  padding: 30px;
-}
-
-nav ul li a{
-  text-decoration: none;
-  color: black;
-  font-size: 22px
-}
-
-nav ul li:hover{
-  background-color: #099999;
-}
-
 
 #profile{
-  width: 300px;
+  width: 500px;
   height: 0 auto;
 }
 
@@ -216,14 +199,6 @@ height: 200px;
   text-decoration: disk;
 }
 
-#handstand{
-    width: 230px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 30px;
-  }
 
 
 #train{
@@ -373,3 +348,41 @@ margin-top: -300px;
 #buynow{
   text-align: center;
 }
+
+#TRAINING, #LINKSANDCODES{
+  font-size: 40px;
+}
+
+#step1{
+  text-align: left;
+  margin-left: 40px;
+}
+
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+padding: 16px;
+
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+nav ul li:hover{
+  background-color: #099999;
+  border-radius: 55%
+}
+#handstand, #jump, #yay{
+    width: 230px;
+    height: auto;
+
+    margin-right: 0px;
+    padding: 30px;
+    margin-left: 17px;
+    border-radius: 25%;
+  }
