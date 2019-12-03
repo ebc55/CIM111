@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Paytone+One&display=swap');
+
+p, ul{
+  font-family: 'Josefin Slab', serif;
+}
+a{
+  font-family: 'Josefin Slab', serif;
+  color: #099999
+
+}
+h1{
+  font-family: 'Paytone One', sans-serif;
+
+}
+#main{
+  font-size: 50px;
+  color: #099999;
+}
+
+
 header{
   background-color: pink;
   width: 940px;
@@ -29,7 +49,28 @@ margin: 0 auto;
 margin-top: -10px;
 }
 
-#grid2, #grid3, #grid4, #grid5, #grid6, #grid7 {
+#grid7{
+  background-color: #099999;
+width: 940px;
+
+height: 200px;
+padding: 30px 30px 20px 30px;
+
+
+margin: 10px auto 30px auto;
+margin: 0 auto;
+margin-top: -10px;
+}
+
+.hello{
+  width: 300px;
+  margin: 0 auto;
+}
+
+
+
+
+#grid2, #grid3, #grid4, #grid6, #grid8,  #grid11 {
   background-color: pink;
 width: 940px;
 
@@ -46,6 +87,38 @@ margin-top: -10px;
 
 }
 
+#grid5{
+  background-color: pink;
+width: 910px;
+
+height: auto;
+padding: 30px 30px 20px 30px;
+
+border-width: 5px 5px 5px 5px;
+border-color: #1259cc;
+border-style: single;
+
+margin: 10px auto 30px auto;
+margin: 0 auto;
+margin-top: -10px;
+}
+
+#grid6{
+  background-color: #099999;
+width: 800px;
+height: 350px;
+padding: 30px 30px 20px 30px;
+
+border-width: 5px 5px 5px 5px;
+border-color: #1259cc;
+border-style: single;
+
+margin: 10px auto 30px auto;
+margin: 0 auto;
+margin-top: -10px;
+}
+
+
 nav ul li{
   list-style: none;
   display: inline-block;
@@ -60,7 +133,7 @@ nav ul li a{
 }
 
 nav ul li:hover{
-  background-color: white;
+  background-color: #099999;
 }
 
 
@@ -77,6 +150,9 @@ nav ul li:hover{
   display: center;
 }
 
+#facebooklink{
+  text-align: center;
+}
 
 h1{
   text-align: center;
@@ -95,21 +171,201 @@ h1{
 #img1{
   width: 245px;
   height: 200px;
+  padding-right: 30px;
 
 }
 #img2{
-  width: 200px;
-  height: 200px;
+  width: 170px;
+height: 200px;
+ padding-right: 30px;
 
 }
 #img3{
   width: 250px;
   height: 200px;
+  padding-right: 30px;
 
 }
 
 #img4{
   width: 170px;
-  height: 200px;
+   height: 200px;
 
+}
+
+#cookbook{
+    width: 850px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 10px;
+    vertical-align: top;
+    font-size: 28px;
+
+}
+
+#COOK{
+  width: 250px;
+  height: 300px;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+#fbgroup{
+  text-decoration: disk;
+}
+
+#handstand{
+    width: 230px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+  }
+
+
+#train{
+  width: 830px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 10px;
+
+}
+
+#linksimg{
+  width: 180px;
+  height: 220px;
+  margin-left: 25px;
+}
+
+
+#fbphoto{
+  width: 300px;
+  height: 400px;
+}
+
+
+
+#fbintro, #fbgroup{
+  font-size: 22px;
+}
+
+#train{
+  font-size: 25px;
+}
+
+#mentalhealth{
+  font-size: 21px;
+}
+
+#links{
+    width: 500px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 10px;
+    vertical-align: top;
+    font-size: 28px;
+
+}
+
+#contactinfo{
+  font-size: 17px;
+  text-align: center;
+}
+
+#grid10{
+  background-color: pink;
+width: 800px;
+height: 400px;
+
+height: auto;
+padding: 30px 30px 20px 30px;
+
+border-width: 5px 5px 5px 5px;
+border-color: #1259cc;
+border-style: single;
+
+margin: 10px auto 30px auto;
+margin: 0 auto;
+margin-top: -10px;
+
+}
+
+#SHOP, #FACEBOOK{
+  font-size: 50px;
+}
+
+
+#food1, #food2, #food3, #food4, #food5{
+  width: 170px;
+  height: 150px;
+  padding: 7px;
+  border-radius: 80%
+}
+
+#ella{
+  width: 250px;
+  margin-top: -570px;
+  margin-left: 500px;
+
+}
+#contactinfo{
+width: 500px;
+display: inline-block;
+margin-left: 30px;
+margin-right: 10px;
+vertical-align: top;
+font-size: 28px;}
+
+#CONTACT{
+  margin-right: 225px;
+  margin-top: 1.5px;
+  font-size: 40px;
+}
+
+
+
+#fbgroup{
+    width: 500px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 10px;
+    vertical-align: top;
+    font-size: 28px;
+}
+
+#fbtitle{
+  margin-left: -20px;
+}
+
+#MENTALHEALTH{
+  width: 100px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 10px;
+  vertical-align: top;
+  font-size: 40px;
+  margin-bottom: -83px;
+
+}
+
+#mentalhealth{
+
+  width: 500px;
+  display: inline-block;
+  margin-left: 300px;
+  margin-right: 10px;
+  vertical-align: top;
+  font-size: 27px;
+margin-top: -300px;
+}
+
+#MYSTORY{
+  font-size: 40px;
+}
+
+#instalink, #contactlink1{
+  color: black;
 }
