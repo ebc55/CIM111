@@ -173,6 +173,7 @@ height: 200px;
 #img4{
   width: 170px;
    height: 200px;
+   padding-right: 25px;
 
 }
 
@@ -216,7 +217,7 @@ height: 200px;
 }
 
 
-#fbphoto{
+#fbp{
   width: 300px;
   height: 400px;
 }
@@ -385,4 +386,9 @@ nav ul li:hover{
     padding: 30px;
     margin-left: 17px;
     border-radius: 25%;
+  }
+
+  .hello{
+    width: 400px;
+    padding: 5px;
   }
