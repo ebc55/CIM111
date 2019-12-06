@@ -395,3 +395,7 @@ nav ul li:hover{
     width: 400px;
     padding: 5px;
   }
+
+#logo{
+  width: 200px;
+}

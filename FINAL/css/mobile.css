@@ -25,7 +25,7 @@ header{
 }
 
 #MYSTORY{
-  font-size: 25px;
+  font-size: 35px;
 }
 
 #fitstory{
@@ -52,12 +52,12 @@ header{
 }
 
 #main{
-  font-size: 34px;
+  font-size: 40px;
 }
 
 #SHOP{
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
 }
 #COOK{
   width: 180px;
@@ -101,26 +101,27 @@ margin-left: -1px;
 
 
 #fbtitle{
-  font-size: 20px;
+  font-size: 40px;
+  padding-left: -80px;
+  text-align: left;
+}
+
+#fbgroup{
+  font-size: 22px;
+  line-height: 20pt;
+  padding-top: 150px;
+    text-align: left;
+    margin-left: -40px;
 }
 
 
 
-
-#img2, #img4{
-  width: 60px;
-  height: 63px;
-}
-
-#img1, #img3{
-  width: 83px;
-  height: 63px;
-}
 #fbp{
-  width: 90px;
+  width: 100px;
   height: 130px;
-  padding-top: 2390px;
+  padding-top: 2450px;
   margin-right: 150px;
+
 }
 
 #handstand, #jump, #yay{
@@ -191,10 +192,45 @@ margin-left: -1px;
 }
 
 #CONTACT{
+  width: 400px;
   font-size: 30px;
+  margin-top: -25px;
+  margin-left: -40px;
 }
 
 #grid6{
+  width: 30px;
+
+}
+
+#img1, #img2, #img3, #img4{
+  width: 180px;
+  height: 200px;
+}
+
+#grid6{
+  width: 400px;
+  height: 200px;
+  margin-left: -80px;
+}
+#ella{
+  width: 150px;
+  margin-left: 385px;
+  margin-top: -350px;
+  margin-bottom: 13px;
+}
+
+#contactinfo{
+  font-size: 22px;
+  margin-top: -50px;
+  line-height: 21pt;
+margin-left: -95px;
+
+}
+
+#grid10{
   width: 350px;
-  
+  text-align: center;
+  margin-left: -70px;
+  margin-top: 100px;
 }
