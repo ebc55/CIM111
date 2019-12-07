@@ -94,8 +94,8 @@ margin-left: -1px;
   width: 100px;
   height: 150px;
   position: absolute;
-  top: -150px;
-  right: -50px;
+  margin-top: -50px;
+  right: -60px;
 }
 
 
@@ -117,11 +117,10 @@ margin-left: -1px;
 
 
 #fbp{
-  width: 100px;
-  height: 130px;
-  padding-top: 2450px;
+  width: 125px;
+  height: 150px;
   margin-right: 150px;
-
+  margin-top: -140px;
 }
 
 #handstand, #jump, #yay{
@@ -141,12 +140,10 @@ margin-left: -1px;
   width: 370px;
   font-size: 18px;
   text-align: center;
-  margin-left: -8px;
+  margin-left: 15px;
 }
 
-#parentdiv{
-  text-align: center;
-}
+
 #links{
   display: inline-block;
 }
